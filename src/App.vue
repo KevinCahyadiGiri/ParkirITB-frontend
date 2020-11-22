@@ -1,7 +1,18 @@
 <template>
-  <router-view/>
+  <router-view />
 </template>
 
-<style>
+<script>
 
-</style>
+export default {
+  name: 'App',
+
+  components: {
+    
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>

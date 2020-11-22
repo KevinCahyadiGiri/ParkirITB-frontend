@@ -22,6 +22,11 @@ const routes = [
     path: '/mobile-app',
     name: 'MobileApp',
     component: () => import('../views/MobileApp.vue')
+  },
+  {
+    path: '/website',
+    name: 'Website',
+    component: () => import('../views/Website.vue')
   }
 ]
 
