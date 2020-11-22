@@ -76,7 +76,7 @@ export default {
                 value: 'nim'
             },
             {text: 'Nama', value: 'namamahasiswa'},
-            {text: 'Saldo', value: 'nim'},
+            {text: 'Saldo', value: 'saldo'},
         ],
         itemsTableSaldo: [],
     }),
