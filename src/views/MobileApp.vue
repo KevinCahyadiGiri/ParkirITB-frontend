@@ -99,7 +99,7 @@ export default {
                 })
         },
         async topUp() {
-            await this.$axios.post('https://blooming-atoll-42885.herokuapp.com/saldo/18218033', {
+            await this.$axios.put('https://blooming-atoll-42885.herokuapp.com/saldo/18218033', {
                 topup: this.nominalTopUp
             }).then(async () => {
                 this.nominalTopUp = 0;
@@ -113,6 +113,8 @@ export default {
                         console.log(err)
                 })
                 alert('Saldo berhasil ditambahkan')
+            }).catch(err => {
+                console.log(err)
             })
         },
     },
